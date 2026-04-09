@@ -368,7 +368,7 @@ def plot_results(schedulers: dict):
 
     ax6.set_title("Summary — when to use each strategy", fontsize=10, pad=6)
 
-    plt.savefig("/home/claude/gpu_scheduler_results.png", dpi=150, bbox_inches="tight",
+    plt.savefig("gpu_scheduler_results.png", dpi=150, bbox_inches="tight",
                 facecolor=fig.get_facecolor())
     print("Saved → gpu_scheduler_results.png")
     plt.show()

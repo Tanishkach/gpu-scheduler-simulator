@@ -9,6 +9,8 @@ Simulates and compares 3 GPU scheduling strategies for AI workloads:
 Work-stealing reduced GPU idle time from 18.8% → 5% and finished 14% faster than FIFO.
 Priority scheduling cut high-priority job wait time by 40% but didn't improve throughput.
 
+![GPU Scheduler Results](gpu_scheduler_results.png)
+
 ## How to run
 pip install simpy matplotlib numpy
 python gpu_scheduler_sim.py
